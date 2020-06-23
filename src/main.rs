@@ -49,7 +49,7 @@ fn recieve_request(number : Form<Number>) -> Html<String> {
    </div>
     <div 'style='position: absolute;'><a href='https://www.github.com/alifya53' style='padding: 10px 20px; margin-top: 10px; 
             font-size: 24px; color: white; background-color: #960612; border-radius: 5px;text-aligh: center;'>Github</a></div>
-    ", number.number, number.number+2);
+    ", number.number, number.number+10);
     Html(h1)
 }
 
